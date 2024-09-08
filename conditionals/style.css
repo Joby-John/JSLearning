@@ -1,0 +1,28 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    background-color:bisque;
+    color: hsl(239, 72%, 54%);
+}
+.text
+{
+    border-radius: 25px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    border-width: 2px;
+}
+#button
+{
+    color: black;
+    background-color: hsl(124, 18%, 85%);
+    transition: background-color .25s;
+    border-radius: 25px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+#button:hover
+{
+    background-color: hsl(59, 67%, 44%);
+}
