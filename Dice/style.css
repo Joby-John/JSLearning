@@ -1,0 +1,31 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    background-color: rgb(211, 215, 216);
+}
+h1{
+    text-align: center;
+}
+.labels{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    color: brown;
+}
+
+#roll {
+    display: block;
+    margin: 0 auto;  /* This centers the element */
+    text-align: center;
+    font-size: 1.2em;
+    background-color: hsl(60, 63%, 13%);
+    padding: 10px 20px;
+    transition: background-color .25s;
+    cursor: pointer;
+    border-radius: 20px;
+    border-width: 5px;
+}
+#roll:hover{
+    background-color: hsl(106, 71%, 20%);
+}
+
