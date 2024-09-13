@@ -17,7 +17,7 @@ function rollDice()
         }
 
         result.textContent = `Face: ${values.join(",")}`;
-        imagesResult.innerHTML = images.join(" ");
+        imagesResult.innerHTML = images.join("");
     }
     else
     {
