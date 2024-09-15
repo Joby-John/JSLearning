@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    background-image: url("./images/monaco.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#clock_container
+{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+#clock{
+    font-family: monospace;
+    font-size: 5.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: whitesmoke;
+    backdrop-filter: blur(7px);
+    width: 100%;
+    background-color: hsla(0, 0%, 100%, 0.025);
+}
