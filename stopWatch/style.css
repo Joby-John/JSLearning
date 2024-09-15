@@ -1,0 +1,67 @@
+body{
+    background-color: hsl(0, 24%, 91%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4rem;
+    color: hsl(0, 13%, 12%);
+}
+#container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px ridge;
+    border-radius: 25px;
+    border-color:rgb(33, 43, 43) ;
+    box-shadow: 10px 10px 5px;
+}
+
+#stopwatch
+{
+    font-size: 4em;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 10px;
+    text-shadow: 2px 2px 3px rgb(10, 6, 28);
+}
+
+#controls
+{
+    padding: 10px;
+
+}
+#controls button{
+    padding: 10px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    min-width: 125px;
+    transition: background-color 0.5s ease;
+}
+
+#startbtn{
+    background-color: hsl(84, 56%, 49%);
+}
+#startbtn:hover{
+    background-color: hsl(84, 90%, 61%);
+}
+
+#pausetbtn{
+    background-color: hsl(0, 77%, 37%);
+}
+#pausetbtn:hover{
+    background-color: hsl(0, 77%, 49%);
+}
+#resetbtn{
+    background-color: hsl(233, 56%, 41%);
+}
+#resetbtn:hover{
+    background-color: hsl(233, 95%, 63%);
+}
