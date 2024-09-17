@@ -1,0 +1,11 @@
+#myBox{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: hsl(120, 73%, 75%);
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
